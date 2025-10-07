@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroTech - Tomatodos Inteligentes | Hidratación Inteligente</title>
+    <meta name="description" content="HydroTech ofrece tomatodos inteligentes que monitorean tu consumo de agua, temperatura y te brindan recomendaciones personalizadas a través de nuestra app.">
+    <meta name="keywords" content="tomatodo inteligente, botella de agua inteligente, hidratación, monitoreo de agua, app de hidratación, HydroTech">
+    <meta name="author" content="HydroTech">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.hydrotech.com/">
+    <meta property="og:title" content="HydroTech - Tomatodos Inteligentes">
+    <meta property="og:description" content="Monitorea tu consumo de agua, temperatura y recibe recomendaciones personalizadas con nuestra app móvil.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=HydroTech">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.hydrotech.com/">
+    <meta property="twitter:title" content="HydroTech - Tomatodos Inteligentes">
+    <meta property="twitter:description" content="Monitorea tu consumo de agua, temperatura y recibe recomendaciones personalizadas con nuestra app móvil.">
+    <meta property="twitter:image" content="https://via.placeholder.com/1200x630?text=HydroTech">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://via.placeholder.com/32x32?text=H" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Site Verification (reemplaza XXXXXXXXXX con tu código real cuando lo tengas) -->
+    <!-- <meta name="google-site-verification" content="XXXXXXXXXX" /> -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/150x50?text=HydroTech" alt="Logo HydroTech">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#app">App</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Tomatodos Inteligentes para una Hidratación Óptima</h1>
+                <p>Monitorea tu consumo de agua, temperatura y recibe recomendaciones personalizadas con nuestra app móvil.</p>
+                <div class="cta-buttons">
+                    <a href="#productos" class="btn btn-primary">Ver Productos</a>
+                    <a href="#app" class="btn btn-secondary">Conoce la App</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x600?text=HydroTech+Bottle" alt="HydroTech Tomatodo Inteligente">
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="products">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-badge">Básico</div>
+                    <img src="https://via.placeholder.com/300x400?text=HydroTech+Basic" alt="HydroTech Basic">
+                    <h3>HydroTech Basic</h3>
+                    <p>Tomatodo inteligente con sensor de temperatura básico.</p>
+                    <div class="product-price">$39.99</div>
+                    <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                </div>
+                <div class="product-card featured">
+                    <div class="product-badge">Popular</div>
+                    <img src="https://via.placeholder.com/300x400?text=HydroTech+Pro" alt="HydroTech Pro">
+                    <h3>HydroTech Pro</h3>
+                    <p>Diseñado para deportistas. Mide temperatura, nivel y ritmo de consumo.</p>
+                    <div class="product-price">$59.99</div>
+                    <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Premium</div>
+                    <img src="https://via.placeholder.com/300x400?text=HydroTech+Elite" alt="HydroTech Elite">
+                    <h3>HydroTech Elite</h3>
+                    <p>Edición premium con aislamiento térmico y batería de larga duración.</p>
+                    <div class="product-price">$89.99</div>
+                    <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="app" class="app-section">
+        <div class="container">
+            <div class="app-content">
+                <h2>App Móvil HydroTech</h2>
+                <p>Nuestra aplicación te permite monitorear tu consumo de agua, establecer metas diarias y recibir recordatorios personalizados.</p>
+                <ul class="app-features">
+                    <li><i class="fas fa-check-circle"></i> Seguimiento en tiempo real</li>
+                    <li><i class="fas fa-check-circle"></i> Estadísticas personalizadas</li>
+                    <li><i class="fas fa-check-circle"></i> Recordatorios inteligentes</li>
+                    <li><i class="fas fa-check-circle"></i> Recomendaciones basadas en tu actividad</li>
+                </ul>
+                <div class="app-buttons">
+                    <a href="#" class="app-btn">
+                        <i class="fab fa-google-play"></i>
+                        <span>Google Play</span>
+                    </a>
+                    <a href="#" class="app-btn">
+                        <i class="fab fa-apple"></i>
+                        <span>App Store</span>
+                    </a>
+                </div>
+            </div>
+            <div class="app-image">
+                <img src="https://via.placeholder.com/300x600?text=HydroTech+App" alt="HydroTech App">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://via.placeholder.com/150x50?text=HydroTech" alt="Logo HydroTech">
+                    <p>Tomatodos inteligentes para una vida saludable.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#app">App</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Suscríbete</h3>
+                    <p>Recibe nuestras novedades y ofertas especiales.</p>
+                    <form>
+                        <input type="email" placeholder="Tu email">
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HydroTech. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
